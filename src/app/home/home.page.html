@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><img src="assets/cc.png" style="width: 30px;"> Contrivance Creations</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <!-- <div class="jumbotron"> -->
+      <div class="container">
+        <img src="assets/profile.jpg" style="border-radius: 50%; width: 200px; height: 200px; margin: 21px;" />
+        <img src="assets/contravanceCreations3.png" style="height: 250px; width: 350px;"/>
+  
+        <div class="float-right" style="position: absolute; right: 0; top: 10px;">
+          <div class="contact-options circle-link" id="gitHub">
+            <a href="https://github.com/shahidfoy" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </div>
+      
+          <!-- <div class="contact-options" id="twitter">
+            <a href="https://twitter.com/ShahidFoy" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div> -->
+      
+          <div class="contact-options circle-link" id="linkedIn">
+            <a href="https://www.linkedin.com/in/shahid-foy-302476b7" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+      
+          <div class="contact-options circle-link" id="codePen">
+            <a href="https://codepen.io/shahidfoy/" target="_blank"><i class="fab fa-codepen"></i></a>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+    
+
+    <div class="row">
+      <div class="container flex-container">
+
+        <ion-card [routerLink]="['/tabs/web-projects']">
+          <ion-card-header>
+            <ion-card-title><i class="fas fa-anchor"></i> Projects</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Projects I have worked on.
+          </ion-card-content>
+        </ion-card>
+    
+        <ion-card [routerLink]="['/tabs/resume']">
+          <ion-card-header>
+            <ion-card-title><i class="fas fa-hat-wizard"></i> Resume</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            My journey as a software developer.
+          </ion-card-content>
+        </ion-card>
+    
+        <ion-card [routerLink]="['/tabs/contact']">
+          <ion-card-header>
+            <ion-card-title><i class="fas fa-paper-plane"></i> Contact</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Keep in contact with me through these proxies.
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card [routerLink]="['/tabs/payment-portal']">
+          <ion-card-header>
+            <ion-card-title><i class="fas fa-money-check-alt"></i> Payment Portal</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Payment gateways accepted by me.
+          </ion-card-content>
+        </ion-card>
+
+        <!-- <ion-card [routerLink]="['/tabs/web-projects']">
+          <ion-card-header>
+            <ion-card-title><i class="fas fa-tools"></i> Request Maintinance</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Need something fixed? Please submit a request here.
+          </ion-card-content>
+        </ion-card> -->
+
+      </div>
+    </div>
+
+    <!-- <div class="row">
+      <div class="container flex-container">
+
+
+
+      </div>
+    </div> -->
+
+
+
+</ion-content>

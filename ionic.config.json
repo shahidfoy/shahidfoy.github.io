@@ -1,0 +1,7 @@
+{
+  "name": "shahidfoy-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

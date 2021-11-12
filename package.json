@@ -8,7 +8,7 @@
     "start": "ng serve",
     "start:ionic": "ionic serve",
     "build": "ng build",
-    "build:ghpages": "ng build --prod=true --outputPath=docs --baseHref=/shahidfoy-app/",
+    "build:ghpages": "ng build --prod=true --outputPath=docs --baseHref=/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

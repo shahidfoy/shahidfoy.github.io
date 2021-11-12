@@ -1,1 +1,1 @@
-https://shahidfoy.github.io/shahidfoy-app/
+https://shahidfoy.github.io

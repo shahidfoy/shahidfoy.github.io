@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
 import { RicochetComponent } from './ricochet.component';
@@ -7,7 +7,7 @@ describe('RicochetComponent', () => {
   let component: RicochetComponent;
   let fixture: ComponentFixture<RicochetComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ RicochetComponent ],
       imports: [IonicModule.forRoot()]
